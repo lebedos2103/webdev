@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F5F6F7;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+
+p {
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #4E4E4E;
+}
+
+.btn-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: white;
+    background: #00AFDB;
+}
+
+.btn_size-1{
+    width: 184px;
+    height: 46px;
+}
+
+.btn_size-2{
+    width: 128px;
+    height: 50px;
+}
+
+.btn-main:hover {
+    cursor: pointer;
+    background: #009CC2;
+}
+
+.form {
+    display: flex;
+}
+
+.form__field {
+    width: 340px;
+    height: 46px;
+
+    border: none;
+    outline: 0;
+
+    box-sizing: border-box;
+
+    padding-left: 24px;
+    line-height: 20px;
+    color: black;
+    font-size: 14px;
+}
+
+.form__field::-webkit-input-placeholder {
+    color: #373737;
+}
+
+.form__submit {
+    width: 66px;
+    height: 46px;
+
+    border: none;
+    outline: 0;
+    box-sizing: border-box;
+    background: #00AFDB;
+}
+
+.form__submit:hover {
+    cursor: pointer;
+    background: #009CC2;
+}
+
+.btn-store {
+    display: flex;
+}
+
+.btn-store:not(:last-child){
+    margin-right: 30px;
+}
+
+.ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    background: #009CC2;
+}
+
+.main {
+    width: 1600px;
+    margin: 0 auto;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.main__header {
+    display: none;
+}
+
+.wrapper {
+    padding: 0 270px;
+}
+
+.promo {
+    height: 744px;
+    background: rgba(0, 0, 0, 0.4) url(assets/bg-image.png) center/cover;
+}
+
+.header {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 25px 0;
+
+    list-style: none;
+}
+
+.nav__item {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__item_text {
+    opacity: 0.8;
+}
+
+.nav__item_active, .nav__item_text:hover {
+    padding-bottom: 5px;
+
+    font-weight: 500;
+    opacity: 1;
+
+    border-bottom: 1px solid white;
+}
+
+.nav__limit {
+    border-left: 1px solid #4E4E4E;
+}
+
+/*---------------------END NAVIGATION-------------------*/
+
+.your-life {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 130px;
+}
+
+.your-life__title {
+    color: white;
+}
+
+.your-life__description {
+    width: 500px;
+    margin-top: 20px;
+
+    font-size: 18px;
+    color: white;
+    line-height: 140%;
+}
+
+.your-life__button {
+    margin-top: 30px;
+}
+
+/*---------------------END YOUR LIFE-------------------*/
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 170px;
+    margin: 180px auto 0;
+}
+
+.social__link {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.social__link_mail {
+    background: url("assets/socials/mail.svg");
+}
+
+.social__link_insta {
+    background: url("assets/socials/insta.svg");
+}
+
+.social__link_telegram {
+    background: url("assets/socials/telegram.svg");
+}
+
+.social__link_facebook {
+    background: url("assets/socials/facebook.svg");
+}
+
+/*---------------------END PROMO-------------------*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__wrapper {
+    width: 407px;
+}
+
+.container__image {
+    /*width: 410px;*/
+    /*height: 580px;*/
+}
+
+.container__title {
+    color: #373737;
+    margin-bottom: 20px;
+}
+
+.container__description {
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+.rappresent {
+    height: 842px;
+    background: white;
+}
+
+.our-community {
+    height: 504px;
+    margin-left: 270px;
+}
+
+.layout-2-col {
+    display: flex;
+}
+
+.community {
+    width: 300px;
+    margin-top: 155px;
+    text-align: center;
+}
+
+.community__image {
+    margin-bottom: 20px;
+}
+
+.community__title {
+    margin-bottom: 10px;
+}
+
+.community__description {
+    line-height: 20px;
+}
+
+.slider {
+    margin-left: 140px;
+}
+
+.slider__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 80px;
+    margin-top: 80px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+    color: #373737;
+}
+
+.arrow {
+    width: 8px;
+    height: 8px;
+
+    border-left: 2px solid #373737;
+    border-bottom: 2px solid #373737;
+    box-sizing: border-box;
+}
+
+.left-arrow {
+    margin-right: 10px;
+    transform: rotate(45deg);
+}
+
+.right-arrow {
+    margin-left: 10px;
+    transform: rotate(-135deg);
+}
+
+.slider__items {
+    display: flex;
+    width: 900px;
+    overflow-x: hidden;
+}
+
+.slider__item {
+    margin-right: 30px;
+}
+
+.implement {
+    height: 842px;
+    background: white;
+}
+
+.implement__image {
+    order: -1;
+    margin-right: -40px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 598px;
+    background: rgba(0, 0, 0, 0.5) url("assets/subscribe-bg.png") top/cover;
+}
+
+.subscribe__title {
+    margin-bottom: 30px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 468px;
+}
+
+.download__title{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    color: #373737;
+}
+.download__description {
+    width: 480px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.download__store {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 184px;
+
+    background: black;
+}
+
+.footer__menu {
+    width: 240px;
+    margin-left: 160px;
+}
+
+.footer__logo {
+    margin-left: 380px;
+}
+
+.footer__copyright {
+    margin-left: 440px;
+    color: #818181;
+}
