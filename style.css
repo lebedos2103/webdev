@@ -19,7 +19,7 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
     text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@ h3 {
 
 p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 21px;
 
     color: #4E4E4E;
 }
@@ -61,8 +61,8 @@ p {
 }
 
 .btn_size-2 {
-    width: 128px;
-    height: 50px;
+    width: 126px;
+    height: 48px;
 }
 
 .btn-main:hover {
@@ -121,7 +121,7 @@ p {
     justify-content: center;
     align-items: center;
     width: 60px;
-    height: 50px;
+    height: 48px;
     background: #009CC2;
 }
 
@@ -254,6 +254,9 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container__info {
@@ -268,22 +271,23 @@ p {
 
 .container__title {
     color: #373737;
-    margin-bottom: 20px;
     padding-right: 35px;
+    padding-bottom: 21px;
 }
 
 .container__description {
     color: #4E4E4E;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .rappresent {
-    height: 842px;
+    /*height: 842px;*/
     background: white;
 }
 
 .rappresent__wrapper {
-    padding-bottom: 17px;
+    /*padding-top: 175px;*/
+    padding-bottom: 19px;
 }
 
 .rappresent__image {
@@ -310,7 +314,7 @@ p {
 }
 
 .community__image {
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 
 .community__title {
@@ -318,7 +322,7 @@ p {
 }
 
 .community__description {
-    line-height: 21px;
+    /*line-height: 21px;*/
 }
 
 .slider {
@@ -368,7 +372,7 @@ p {
 }
 
 .implement {
-    height: 842px;
+    /*height: 842px;*/
     background: white;
 }
 
@@ -385,8 +389,8 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    height: 598px;
+    padding-top: 196px;
+    padding-bottom: 221px;
     background: rgba(0, 0, 0, 0.5) url("assets/subscribe-bg.png") top/cover;
 }
 
@@ -396,7 +400,6 @@ p {
 }
 
 .subscribe__form {
-    padding-bottom: 57px;
 }
 
 .download {
@@ -408,13 +411,13 @@ p {
 
 .download__title {
     margin-top: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     color: #373737;
 }
 
 .download__description {
     width: 480px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     text-align: center;
 }
 
@@ -423,9 +426,9 @@ p {
 }
 
 .footer {
-    height: 184px;
     background: black;
-    padding-top: 59px;
+    padding-top: 56px;
+    padding-bottom: 80px;
 }
 
 .footer__wrapper {
